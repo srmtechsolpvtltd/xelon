@@ -3,7 +3,7 @@
  * Short description for file
  *
  * @FileName		UserController.php
- * @Created On		12 February 2014
+ * @Created On		12 February 2016
  * @author			Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
  * @copyright		2015-2016 The PHP Group
  * @license			http://www.php.net
@@ -41,9 +41,9 @@ class UserController extends Controller {
 	/*********************************************************
 	Function name: login
 	Description: User Login View
-	Created Date: 12 February 2014
+	Created Date: 12 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 1 March 2014
+	Modified Date: 1 March 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
 	public function login()
@@ -55,9 +55,9 @@ class UserController extends Controller {
 	/*********************************************************
 	Function name: register
 	Description: User Registration View
-	Created Date: 12 February 2014
+	Created Date: 12 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 7 March 2014
+	Modified Date: 7 March 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
 	public function register()
@@ -68,9 +68,9 @@ class UserController extends Controller {
 	/*********************************************************
 	Function name: getChange_password
 	Description: User Change Password View
-	Created Date: 12 February 2014
+	Created Date: 12 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 8 March 2014
+	Modified Date: 8 March 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
 	protected function getChange_password() {	        
@@ -80,9 +80,9 @@ class UserController extends Controller {
     /*********************************************************
 	Function name: postChange_password
 	Description: User Change Password Save
-	Created Date: 12 February 2014
+	Created Date: 12 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 8 March 2014
+	Modified Date: 8 March 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
     public function postChange_password(ChangePasswordRequest $request) {		
@@ -94,9 +94,9 @@ class UserController extends Controller {
 	/*********************************************************
 	Function name: get_profile
 	Description: User Profile View
-	Created Date: 15 February 2014
+	Created Date: 15 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 17 March 2014
+	Modified Date: 17 March 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
 	protected function get_profile() {	        
@@ -106,9 +106,9 @@ class UserController extends Controller {
     /*********************************************************
 	Function name: post_profile
 	Description: User Profile save
-	Created Date: 17 February 2014
+	Created Date: 17 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 18 March 2014
+	Modified Date: 18 March 2016
 	Modified by : Rohit Yadav <rohit.yadav@srmtechsol.com> 
 	**********************************************************/
     public function post_profile(ProfileRequest $request) {		

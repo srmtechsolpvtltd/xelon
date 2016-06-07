@@ -3,7 +3,7 @@
  * Short description for file
  *
  * @FileName		ChannelController.php
- * @Created On		9 February 2014
+ * @Created On		9 February 2016
  * @author			Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
  * @copyright		2015-2016 The PHP Group
  * @license			http://www.php.net

@@ -3,7 +3,7 @@
  * Short description for file
  *
  * @FileName		UserChannelController.php
- * @Created On		29 February 2014
+ * @Created On		29 February 2016
  * @author			Rohit Yadav <rohit.yadav@srmtechsol.com > 
  * @copyright		2015-2016 The PHP Group
  * @license			http://www.php.net

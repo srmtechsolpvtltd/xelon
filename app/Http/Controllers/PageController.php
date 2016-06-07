@@ -3,7 +3,7 @@
  * Short description for file
  *
  * @FileName		PageController.php
- * @Created On		2 March 2014
+ * @Created On		2 March 2016
  * @author			Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
  * @copyright		2015-2016 The PHP Group
  * @license			http://www.php.net
@@ -26,7 +26,7 @@ class PageController extends Controller {
 	/*********************************************************
 	Function name: show
 	Description: This function is used to Show a page by slug
-	Created Date: 2 March 2014
+	Created Date: 2 March 2016
 	Created by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	Modified Date:
 	Modified by : 

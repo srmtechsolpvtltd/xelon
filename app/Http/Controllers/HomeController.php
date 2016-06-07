@@ -3,7 +3,7 @@
  * Short description for file
  *
  * @FileName		HomeController.php
- * @Created On		9 February 2014
+ * @Created On		9 February 2016
  * @author			Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
  * @copyright		2015-2016 The PHP Group
  * @license			http://www.php.net
@@ -40,7 +40,7 @@ class HomeController extends Controller {
 	/*********************************************************
 	Function name: index
 	Description: This function is used to show login page to guest
-	Created Date: 9 February 2014
+	Created Date: 9 February 2016
 	Created by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	Modified Date:
 	Modified by : 
@@ -53,9 +53,9 @@ class HomeController extends Controller {
 	/*********************************************************
 	Function name: dashboard
 	Description: This function is used to show dashboard page to user
-	Created Date: 12 February 2014
+	Created Date: 12 February 2016
 	Created by : Hemant Upadhyay
-	Modified Date: 29 February 2014
+	Modified Date: 29 February 2016
 	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
 	**********************************************************/
 	public function dashboard()
