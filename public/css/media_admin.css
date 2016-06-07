@@ -1,0 +1,47 @@
+body {
+	min-width: 320px;
+}
+
+/*--responsive--*/
+@media(max-width:1366px) {
+}
+
+@media(max-width:1280px) {
+}
+
+@media(max-width:1024px) {
+	
+}
+
+@media(max-width:980px) {
+	
+}
+@media(max-width:800px) {
+	
+}
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width:767px) {
+
+}
+
+@media(max-width:640px) {
+
+
+
+}
+
+@media(max-width:480px) {
+	
+}
+
+@media(max-width:360px) {	
+	.login-box_Admin {    width: 288px;	}	
+}
+
+@media(max-width:320px) {
+	.login-box_Admin {    width: 288px;	}	
+}
