@@ -37,16 +37,27 @@ class HomeController extends Controller {
 		$this->middleware('auth');
 	}
 
-	/**
-	 * Show the application dashboard to the user.
-	 *
-	 * @return Response
-	 */
+	/*********************************************************
+	Function name: index
+	Description: This function is used to show login page to guest
+	Created Date: 9 February 2014
+	Created by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
+	Modified Date:
+	Modified by : 
+	**********************************************************/
 	public function index()
 	{
 		return view('home');
 	}
-	//User's dashboard
+	
+	/*********************************************************
+	Function name: dashboard
+	Description: This function is used to show dashboard page to user
+	Created Date: 12 February 2014
+	Created by : Hemant Upadhyay
+	Modified Date: 29 February 2014
+	Modified by : Hemant Upadhyay <hemant.upadhyay@srmtechsol.com > 
+	**********************************************************/
 	public function dashboard()
 	{
 		$savedTotal=DB::table('videos')->where('user_id','=',Auth::id())->where('video_status','=',0)->count();
